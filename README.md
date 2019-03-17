@@ -18,4 +18,6 @@ This app was written in such a way that you will have to explore core React feat
 
 You'll notice that there is an `examples/` directory in this repository. The folders inside that directory correspond to versions of the app which come with pre-written code that already implement a feature. If you feel like you need a hint, or if you'd like to skip ahead, you can go ahead and run `yarn start` or `npm start` in one of those sample directories and see what's going on there.
 
+### Short note:
 
+Most of the components and their respective CSS are already implemented for you. If you wish to overwrite these, go right ahead, but you won't have to worry about setting up your HTML or CSS structure all that much if you are using the components which already exist here.
