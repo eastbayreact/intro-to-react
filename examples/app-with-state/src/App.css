@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.App {
+  display: flex;
+  background-color: white;
+  flex-flow: column nowrap;
+  font-family: 'Roboto', sans-serif;
+  justify-content: start;
+  align-items: start;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  margin: 2rem 20vw;
+}
+
+.video {
+  position: relative;
+  width: 60%;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.video--video {
+  height: 400px;
+  width: 100%;
+  background-color: black;
+  margin-bottom: .5rem;
+}
+
+.video--stats {
+  height: 40px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.stats--likes, .stats--views, .stats--subscriptions {
+  padding: .25rem;
+  height: calc(100% - .5rem);
+  width: calc(33.33% - 1rem);
+  display: flex;
+  align-items: center;
+  margin: 0 .5rem;
+  padding: 0. .5rem;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, .1);
+}
+
+.stats--button__like {
+    color: white;
+    background-color: blue;
+}
+
+.stats--button__subscribe {
+    color: white;
+    background-color: green;
+}
+
+.comment {
+  background-color: white;
+  border-radius: 15px;
+  width: calc(60% - 1rem);
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, .1);
+  padding: .5rem;
+  margin-bottom: .5rem;
+}
+
+.comment--title, .comment--body {
+  margin: .5rem;
+}
+
+.comment--title {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.comment-form {
+    display: flex; 
+    flex-flow: column;
+}
+
